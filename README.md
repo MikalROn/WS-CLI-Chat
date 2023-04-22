@@ -1,5 +1,3 @@
-# WS-CLI-Chat
-
 # Chat Application
 This is a command-line chat application built with Python that allows users to connect to a websocket server and chat with other users in real-time.
 
