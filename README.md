@@ -15,7 +15,7 @@ Usage
 To start the application, run the following command in your terminal:
 
 ````shell
-python chat
+python ws_cli_chat
 ````
 
 You will be prompted to choose a username. After entering your username, the application will connect to the websocket server and you will be able to chat with other users in real-time.
