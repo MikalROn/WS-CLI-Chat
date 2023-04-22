@@ -6,7 +6,7 @@ with open('README.md', 'rt', encoding='utf-8') as arq:
 
 keywords = ['pychat']
 
-setup(name='cli-chat',
+setup(name='ws-cli-chat',
       url='https://github.com/MikalROn/WS-CLI-Chat',
       version='0.1.0',
       license='MIT license',
