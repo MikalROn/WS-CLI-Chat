@@ -4,11 +4,10 @@ import asyncio
 import typer
 import PySimpleGUI as sg
 from pysimpleevent import EventSimpleGUI
-from render import SequestraConsole
 from typing import Optional
-from myconsole import MyConsole
+from ws_cli_chat.myconsole import MyConsole
 
-s = SequestraConsole()
+
 app = typer.Typer()
 MESSAGES: list[str] = []
 
