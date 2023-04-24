@@ -7,20 +7,15 @@ from rich.console import Console
 console = Console(record=True)
 
 
-
 class MyConsole:
-    
-
     
     def __init__(self):
         raise NotImplementedError
 
     @staticmethod
-    def clear() -> str:
+    def clear():
         """ Gerado pelo chat gpt"""
-        past = console.export_text()
-        console.clear()
-        return past
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 
     @staticmethod
