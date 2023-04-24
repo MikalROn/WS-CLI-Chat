@@ -34,7 +34,7 @@ def send_message(socket) -> None:
     while True:
         try:
             msg: str = input()
-            if msg:
+            if msg and msg != '':
                 asyncio.run(socket.send(msg))
         except KeyboardInterrupt:
             return None
