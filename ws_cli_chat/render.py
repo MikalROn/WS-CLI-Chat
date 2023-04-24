@@ -1,6 +1,8 @@
 import io
 import sys
 
+# Codigo legado
+
 
 class SequestraConsole:
     def __init__(self):
