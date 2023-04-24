@@ -15,7 +15,7 @@ MESSAGES: list[str] = []
 def rederizar_menssagens(lista_menssagens: list) -> None:
     MyConsole.clear()
     [print(menssagen) for menssagen in lista_menssagens]
-    MyConsole.br(300)
+    MyConsole.br(30)
 
 
 async def recive_message(socket) -> None:
