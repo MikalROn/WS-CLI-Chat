@@ -2,7 +2,7 @@ import os
 import re
 import ascii_arts
 import colorama
-from code_window import run_code_window
+from ws_cli_chat.code_window import run_code_window
 
 
 # comands here

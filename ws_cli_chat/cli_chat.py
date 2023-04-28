@@ -5,8 +5,9 @@ import typer
 import PySimpleGUI as sg
 from pysimpleevent import EventSimpleGUI
 from typing import Optional
+
 from ws_cli_chat.myconsole import MyConsole
-from comands import string_comand
+from ws_cli_chat.comands import string_comand
 
 
 app = typer.Typer()
