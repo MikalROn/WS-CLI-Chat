@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ws_cli_chat"
-version = "0.4.1"
-description = "simple cli-websocket-ws-cli-chat"
+version = "0.4.2"
+description = "simple cli-websocket chat"
 authors = ["__coelho__ <109885900+MikalROn@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "ws_cli_chat"}]
