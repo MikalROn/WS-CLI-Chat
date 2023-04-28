@@ -6,6 +6,7 @@ import PySimpleGUI as sg
 from pysimpleevent import EventSimpleGUI
 from typing import Optional
 from ws_cli_chat.myconsole import MyConsole
+from comands import string_comand
 
 
 app = typer.Typer()
@@ -33,7 +34,7 @@ async def recive_message(socket) -> None:
 def send_message(socket) -> None:
     while True:
         try:
-            msg: str = input()
+            msg: str = string_comand(input())
             if msg and msg != '':
                 asyncio.run(socket.send(msg))
         except KeyboardInterrupt:
@@ -64,6 +65,7 @@ def winded_send_message(socket) -> None:
             input = win.FindElement('message')
             asyncio.run(socket.send(values['message']))
             input.update('')
+
     try:
         loop.run_window(win, close_event='fechar')
     except KeyboardInterrupt:
