@@ -1,7 +1,9 @@
 import os
 import re
-import ascii_arts
+
 import colorama
+
+import ws_cli_chat.ascii_arts as ascii_arts
 from ws_cli_chat.code_window import run_code_window
 
 
